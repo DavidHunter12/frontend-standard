@@ -1,6 +1,6 @@
 //media query
 @media all and (max-width: 768px) {
-    body{
+    body {
         padding-top: 3em;
     }
     .item-right {
@@ -61,6 +61,32 @@
             font-size: 1em;
             padding: 0.6em 2.5em;
             border-radius: 5px;
+        }
+    }
+    #main1 {
+        .main-detail {
+            padding-top: 0em;
+            .text-left {
+                text-align: right;
+            }
+            .item-text {
+                display: inline-block;
+                text-align: left;
+                width: 47.5%;
+                vertical-align: top;
+                h3 {
+                    font-size: 0.9em;
+                    min-height: 3em;
+                    padding-top: 2em;
+                }
+                p {
+                    font-size: 0.7em;
+                    padding: 1em 0 3em 0;
+                }
+            }
+            img {
+                width: 80%;
+            }
         }
     }
 }

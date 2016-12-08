@@ -1,0 +1,39 @@
+mixin main(page)
+	section(class="main")&attributes(attributes)
+		if page=="main1"
+			.main-detail.center-block
+				.container-fluid
+					.row
+						.col-md-12
+							.col-md-4.col-sm-12.col-xs-12.text-right
+								div.item-text
+									h3 Magna ultricies
+									p Morbi in sem quis dui plalorem ipsum<br/> euismod in, pharetra sed ultricies.
+								div.item-text
+									h3 Ipsum adipiscing lorem
+									p Tristique yonve cursus jam nulla quam<br/> loreipsu gravida adipiscing lorem.
+							.col-md-4.col-sm-12.col-xs-12.text-center
+								img(src="images/pic01.jpg", alt="", class="img-circle")
+							.col-md-4.col-sm-12.col-xs-12.text-left
+								div.item-text
+									h3 Tempus nullam
+									p Sed adipiscing ornare risus. Morbi estes<br/> blandit sit et amet, sagittis magna.
+								div.item-text
+									h3 Suscipit nibh dolore
+									p Pellentesque egestas sem. Suspendisse<br/> modo ullamcorper feugiat lorem.
+		else if page=="main2"
+			.main-detail.center-block
+				.container-fluid
+					.row
+						.col-md-12.text-center
+							div.item-text
+								h3 Feugiat lorem
+								p "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra<br/> magna etiam lorem ultricies in diam. Sed arcu cras consequat."
+								h5 Jane Anderson
+								h6 CEO, Untitled
+
+		else
+			p abc
+
+			
+

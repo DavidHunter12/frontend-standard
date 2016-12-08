@@ -9,7 +9,7 @@ $(function(){
         'transform' : 'translateX(0)', 'visibility' : 'visible'});
 	});
 	$('.close').click(function(){
-		$('#menu-sub').css({'-webkit-transform' : 'translateX(-40em)',
-        'transform' : 'translateX(-40em)', 'visibility' : 'hidden'});
+		$('#menu-sub').css({'-webkit-transform' : 'translateX(-20em)',
+        'transform' : 'translateX(-20em)', 'visibility' : 'hidden'});
 	});
 });
