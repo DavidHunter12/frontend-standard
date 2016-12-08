@@ -1,11 +1,25 @@
 mixin menu()
 	.menu
-		.container-fluid
-			.row
-				.col-md-12
-					nav.pull-left
-						i.fa.fa-bars
-					a.logo intensify
-					nav.pull-right
-						a.log-in LOG IN
+		#menu-top.text-center
+			nav.item-left
+				a(href="javascript:void(0);", class="target-menu")
+					i.fa.fa-bars
+			a.logo intensify
+			nav.item-right
+				a.log-in LOG IN
+	#menu-sub
+		ul.links
+			li
+				a(href="") Home	
+			li
+				a(href="") Home	
+			li
+				a(href="") Home	
+		a(class='close', href='javascript:void(0);')
+			i.fa.fa-times
+		
+						
+	
+			
+
 

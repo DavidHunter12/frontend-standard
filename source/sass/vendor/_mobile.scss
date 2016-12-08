@@ -1,0 +1,66 @@
+//media query
+@media all and (max-width: 768px) {
+    body{
+        padding-top: 3em;
+    }
+    .item-right {
+        display: none;
+    }
+    .menu {
+        line-height: 3em;
+        #menu-top {
+            .item-left {
+                position: fixed;
+                left: 1em;
+                top: 0em;
+            }
+            nav {
+                margin: 0.5em 0 0 0;
+                i {
+                    font-size: 2em;
+                }
+            }
+            .logo {
+                font-size: 2em;
+                margin-top: 2em;
+            }
+        }
+    }
+    #menu-sub {
+        .links {
+            padding: 3em 2em;
+            li {
+                a {
+                    font-size: 1em;
+                    line-height: 2.5em;
+                }
+            }
+        }
+        .close {
+            i {
+                font-size: 1em;
+                top: 0.6em;
+                right: 0.9em;
+            }
+        }
+    }
+    //banner
+    .banner {
+        padding: 5em 0 5em 0;
+        h2 {
+            font-size: 3em;
+            line-height: 1em;
+            margin: 0 0 0.5em 0;
+            padding: 0;
+        }
+        p {
+            font-size: 1em;
+            margin-bottom: 2em;
+        }
+        .get-started {
+            font-size: 1em;
+            padding: 0.6em 2.5em;
+            border-radius: 5px;
+        }
+    }
+}
