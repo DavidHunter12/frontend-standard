@@ -1,6 +1,7 @@
 include modules/menu/menu
 include modules/banner/banner
 include modules/main1/main1
+include modules/footer/footer
 
 doctype html
 html
@@ -12,4 +13,6 @@ html
 		+banner()
 		+main('main1')(id="main1")
 		+main('main2')(id="main2")
+		+main('main3')(id="main3")
+		+footer()
 		script(src='js/main.js', charset='utf-8')
